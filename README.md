@@ -12,7 +12,7 @@ This plugin allows customers to post reviews that include photos. The settings t
 ### Project: Checkout with images
 Description: insert images in product tables during checkout
 Solution: modify the `review-order.php` template located in `plugins/woocommerce/templates/checkout` and insert the new version into `theme/woocommerce/checkout`
-Place this code:
+Place this code:<br />
 ```php
 <?php $thumbnail = apply_filters( 'woocommerce_in_cart_product_thumbnail', $_product->get_image(), $values, $cart_item_key ); echo $thumbnail; ?>
 ```
