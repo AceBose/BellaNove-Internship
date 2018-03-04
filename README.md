@@ -3,7 +3,7 @@
 ### [WooCommerce Products Filter (WOOF)](https://www.woocommerce*filter.com)
 #### **Project: Product filter for browse closet, etc.**
 #### Description: filter by size, placed at the top of the product category pages
-##### Settings (which can be found by going to Woocommerce -> Settings -> Products Filter:
+#### Settings (which can be found by going to Woocommerce -> Settings -> Products Filter:
 * Structure
   * Checkbox, exclude 16, check Product Categories
     * Show title label: yes
@@ -70,7 +70,7 @@ General Settings
 * Item Selector: `.div.product`
 * Content Selector: `div.products-list`
 ### [WooCommerce Remove Product Sorting](https://www.skyverge.com/product/woocommerce-remove-product-sorting/)
-#### **Deactived**
+#### **DEACTIVATED**
 #### **Removes default Woocommerce AJAX sorting from product pages**
 Able to select which sorting options to remove under `Appearance > Customize > WooCommerce > Product Catalog`
 CSS in `Appearance > Customize` made plugin redundant
