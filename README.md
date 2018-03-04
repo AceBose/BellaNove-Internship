@@ -3,7 +3,7 @@
 ### [WooCommerce Products Filter (WOOF)](https://www.woocommerce*filter.com)
 #### **Project: Product filter for browse closet, etc.**
 #### Description: filter by size, placed at the top of the product category pages
-#### Settings (which can be found by going to Woocommerce -> Settings -> Products Filter:
+Settings (which can be found by going to Woocommerce -> Settings -> Products Filter:
 * Structure
   * Checkbox, exclude 16, check Product Categories
     * Show title label: yes
@@ -34,7 +34,7 @@
 * Advanced
   * Custom CSS code
     * Refer to `WOOFcss.css`
-##### Shortcodes:
+Shortcodes:
 Taxonomies: dresses(17), tops(33), bottoms(37), outerwear(35)
 Dresses page
 ```
@@ -54,7 +54,7 @@ This plugin allows customers to post reviews that include photos. The settings t
 ### [Woocommerce Product Archive Customiser](https://wordpress.org/plugins/woocommerce-product-archive-customiser/)
 #### **Issue: Browse Closet page displaying 4 columns instead of 3**
 I used this plugin to set the number of columns displayed to 3 columns. This plugin inserts a `Products Archive` tab into `Appearance > Customize`.
-##### Settings
+Settings
 * Product Columns: 3
 * Products per page: 24
 * Checked display product count, display add to cart buttons, display product image, and display stock
