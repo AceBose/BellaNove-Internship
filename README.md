@@ -3,29 +3,29 @@
 ### [WooCommerce Products Filter (WOOF)](https://www.woocommerce*filter.com)
 Project: Product filter for browse closet, etc.
 Description: filter by size, placed at the top of the product category pages
-Settings (which can be found by going to Woocommerce *> Settings *> Products Filter:
-*Structure
- *Checkbox, exclude 164 (XXL demo), check Product Size box
- *Additional Options
-  *Show title label: yes
-  *Show toggle button: no
-  *Not toggled terms count: leave empty
-  *Taxonomy custom label: leave empty
-  *Max height of the block: leave empty
-  *Display items in a row: yes
-*Options
- *Set everything to no
-*Design
- *Radio and checkboxes skin: pink
- *Overlay skins: Loading spin * SVG
- *Use chosen: no
- *Use beauty scroll: no
- *Auto filter close/open image: none
- *Auto filter close/open text: Filter ▾
- *Leave everything else blank or on default
-*Advanced
- *Custom CSS code
-  *Refer to `WOOFcss.css`
+Settings (which can be found by going to Woocommerce -> Settings -> Products Filter:
+* Structure
+  * Checkbox, exclude 164 (XXL demo), check Product Size box
+  * Additional Options
+    * Show title label: yes
+    * Show toggle button: no
+    * Not toggled terms count: leave empty
+    * Taxonomy custom label: leave empty
+    * Max height of the block: leave empty
+    * Display items in a row: yes
+* Options
+  * Set everything to no
+* Design
+  * Radio and checkboxes skin: pink
+  * Overlay skins: Loading spin * SVG
+  * Use chosen: no
+  * Use beauty scroll: no
+  * Auto filter close/open image: none
+  * Auto filter close/open text: Filter ▾
+  * Leave everything else blank or on default
+* Advanced
+  * Custom CSS code
+    * Refer to `WOOFcss.css`
  
 ### [WC Password Strength Settings](https://wordpress.org/plugins/wc*password*strength*settings/#reviews)
 Project: Password strength
