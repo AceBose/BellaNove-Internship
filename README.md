@@ -47,6 +47,8 @@ Shortcode settings found [here](https://www.woocommerce-filter.com/codex/)
 #### **Project: Password strength**
 #### Description: Weaken the password strength requirement
 This plugin allows you to choose between four password levels, as well as remove the password hint.
+Settings
+Go to `Woocommerce > Accounts`, and at the bottom of the page will be "User Password Strength Settings". The strength requirement is currently set at `Level 2 - Weak`, while the messages and the other settings have been left the same. 
 ### [WooCommerce Photo Reviews](https://wordpress.org/plugins/woo*photo*reviews/)
 #### Project: Adding pictures to user reviews
 Description: Allow users to upload images and add them to their reviews
@@ -121,6 +123,38 @@ The whole code snippet:
     ?>
 </tbody>
 ```
+### Project: Fixing quick view
+#### Description: photo and product summary overlapped in quick view
+#### Solution:
+CSS code (can also be found in `customizer.css`)
+Resizes the image:
+```css
+img.attachment-shop_single.size-shop_single.wp-post-image
+{
+	width: 490px;
+	height: 735px;
+}
+```
+Resizes product summary width to 48% of the quick view pop-up
+```css
+div.xoo-qv-summary
+{
+	width: 48%;
+}
+```
+Re-aligns quantity text and add to cart button
+```css
+table.variations
+{
+	margin-bottom: 0px;
+}
+form.cart .quantity
+{
+	margin-top: 25px;
+}
+```
+### Project: Adjusting the Account page
+
 ### Project: Adding product images to order history
 ### Project: Delete profile field in BuddyPress profile form
 ### Project: Change color of checkout button

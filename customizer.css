@@ -6,3 +6,32 @@ div.before-products-list.rounded-corners.clearfix
 {
 	display: none;
 }
+img.attachment-shop_single.size-shop_single.wp-post-image
+{
+	width: 490px;
+	height: 735px;
+}
+div.xoo-qv-summary
+{
+	width: 48%;
+}
+table.variations
+{
+	margin-bottom: 0px;
+}
+form.cart .quantity
+{
+	margin-top: 25px;
+}
+.ms-edit-profile
+{
+	padding-left: 20px;
+}
+.ms-all-invoices
+{
+	padding-left: 20px;
+}
+.ms-all-activities
+{
+	padding-left: 20px;
+}
