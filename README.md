@@ -153,10 +153,10 @@ form.cart .quantity
 	margin-top: 25px;
 }
 ```
-![Quick view](https://github.com/AmyJZhao/BellaNove/blob/master/Screen%20Shot%202018-03-04%20at%209.44.33%20PM.png)
+
 ### Project: Adjusting the Account page
 #### Description: Put space between the "Change", "Edit", etc. text and section headers
-![Image of Account page before](https://github.com/AmyJZhao/BellaNove/blob/master/image.png)
+
 #### Solution:
 CSS code: insert padding to the left 
 ```css
@@ -173,7 +173,7 @@ CSS code: insert padding to the left
 	padding-left: 20px;
 }
 ```
-![Image of Account page after](https://github.com/AmyJZhao/BellaNove/blob/master/Screen%20Shot%202018-03-04%20at%209.45.29%20PM.png)
+
 ### Project: Adding product images to order history
 ### Project: Delete profile field in BuddyPress profile form
 ### Project: Change color of checkout button
