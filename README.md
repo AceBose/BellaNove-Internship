@@ -155,7 +155,7 @@ form.cart .quantity
 ```
 ### Project: Adjusting the Account page
 #### Description: Put space between the "Change", "Edit", etc. text and section headers
-[[https://github.com/AmyJZhao/BellaNove/blob/master/image.png]]
+![Image of Account page before](https://github.com/AmyJZhao/BellaNove/blob/master/image.png)
 #### Solution:
 CSS code: insert padding to the left 
 ```css
@@ -172,6 +172,7 @@ CSS code: insert padding to the left
 	padding-left: 20px;
 }
 ```
+![Image of Account page after](https://drive.google.com/file/d/0B1vPLIFWJbyud3FWeDFGLXhNNE5KN2pJMWpHOENYQzJyZ2xr/view?usp=sharing)
 ### Project: Adding product images to order history
 ### Project: Delete profile field in BuddyPress profile form
 ### Project: Change color of checkout button
