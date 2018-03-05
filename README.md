@@ -154,7 +154,24 @@ form.cart .quantity
 }
 ```
 ### Project: Adjusting the Account page
-
+#### Description: Put space between the "Change", "Edit", etc. text and section headers
+[[https://github.com/AmyJZhao/BellaNove/blob/master/image.png]]
+#### Solution:
+CSS code: insert padding to the left 
+```css
+.ms-edit-profile
+{
+	padding-left: 20px;
+}
+.ms-all-invoices
+{
+	padding-left: 20px;
+}
+.ms-all-activities
+{
+	padding-left: 20px;
+}
+```
 ### Project: Adding product images to order history
 ### Project: Delete profile field in BuddyPress profile form
 ### Project: Change color of checkout button
