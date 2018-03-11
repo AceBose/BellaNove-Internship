@@ -179,6 +179,9 @@ CSS code: insert padding to the left
 ### Project: Change color of checkout button
 ## Miscellaneous
 ### Project: Correcting product page misalignment
-
+[before product page](https://github.com/AmyJZhao/BellaNove/blob/master/ProductViewPageBefore.png)
 Solution: When creating a product page, leave the "Transparent Menu On Header", "Hide Top Area", and "Disable Top Margin" boxes unchecked!
-
+[boxes](https://github.com/AmyJZhao/BellaNove/blob/master/ProductPageBefore.png)
+[boxes unchecked](https://github.com/AmyJZhao/BellaNove/blob/master/ProductPageAfter.png)
+After making these changes, the product page should look like this:
+[correct product page](https://github.com/AmyJZhao/BellaNove/blob/master/ProductViewPageAfter.png)
