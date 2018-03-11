@@ -177,3 +177,8 @@ CSS code: insert padding to the left
 ### Project: Adding product images to order history
 ### Project: Delete profile field in BuddyPress profile form
 ### Project: Change color of checkout button
+## Miscellaneous
+### Project: Correcting product page misalignment
+
+Solution: When creating a product page, leave the "Transparent Menu On Header", "Hide Top Area", and "Disable Top Margin" boxes unchecked!
+
