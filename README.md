@@ -1,4 +1,6 @@
 # BellaNove
+## List of projects in Google Sheets view-only (mine are labed 'Amy' in the first column)
+[https://docs.google.com/spreadsheets/d/19rKFMVusFRS6pGN9ElMqoJsKHk0ZmgucNvpto3wVvVU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/19rKFMVusFRS6pGN9ElMqoJsKHk0ZmgucNvpto3wVvVU/edit?usp=sharing)
 ## Plugins
 ### [WooCommerce Products Filter (WOOF)](https://www.woocommerce*filter.com)
 #### **Project: Product filter for browse closet, etc.**
