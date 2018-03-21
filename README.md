@@ -108,6 +108,10 @@ display: none;
 ### Customizer
 #### Description: adjust CSS to make the site more aesthetically pleasing, correct styling issues, etc.
 Code is stored in `customizer.css`
+#### Project: Product images not rendering correctly, thumbnails being cropped as squares, etc.
+##### Solution
+In Customizer, go to `WooCommerce > Product Images` and set the thumbnail width to 358 or whatever the width of the product container is. Then, select `uncropped` under thumbnail cropping.
+![Image of Customizer settings](https://github.com/AmyJZhao/BellaNove/blob/master/ProductImageWooCommerceSettings.png)
 ### Project: Checkout with images
 #### Description: insert product images in product tables during checkout
 #### Solution
