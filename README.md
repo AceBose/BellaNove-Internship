@@ -11,6 +11,7 @@
   * <a href="#woocommerce-remove-product-sorting">WooCommerce Remove Product Sorting</a>
 * <a href="#code">Code</a>
   * <a href="#customizer">Customizer</a>
+    * <a href="#project-product-images-not-rendering-correctly-thumbnails-being-cropped-as-squares-etc">Product images not rendering correctly, thumbnails being cropped as squares, etc.</a>
   * <a href="#project-checkout-with-images">Checkout with images</a>
   * <a href="#project-order-confirmation-email-with-images">Order Confirmation Email with images</a>
   * <a href="#project-fixing-quick-view">Fixing quick view</a>
