@@ -10,8 +10,8 @@
   * <a href="#yith-infinite-scrolling">YITH Infinite Scrolling</a>
   * <a href="#woocommerce-remove-product-sorting">WooCommerce Remove Product Sorting</a>
 * <a href="#code">Code</a>
-* <a href="#customizer">Customizer</a>
-* <a href="#project-checkout-with-images">Checkout with images</a>
+  * <a href="#customizer">Customizer</a>
+  * <a href="#project-checkout-with-images">Checkout with images</a>
   * <a href="#project-order-confirmation-email-with-images">Order Confirmation Email with images</a>
   * <a href="#project-fixing-quick-view">Fixing quick view</a>
   * <a href="#project-adjusting-the-account-page">Adjusting the account page</a>
