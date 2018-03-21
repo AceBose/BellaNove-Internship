@@ -1,6 +1,26 @@
 # BellaNove
 ## List of projects in Google Sheets view-only (mine are labed 'Amy' in the first column)
 [https://docs.google.com/spreadsheets/d/19rKFMVusFRS6pGN9ElMqoJsKHk0ZmgucNvpto3wVvVU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/19rKFMVusFRS6pGN9ElMqoJsKHk0ZmgucNvpto3wVvVU/edit?usp=sharing)
+## Table Of Contents
+* <a href="#plugins">Plugins</a>
+* <a href="#woocommerce-products-filter-woof">WooCommerce Products Filter</a>
+  * WC Password Strength Settings
+  * WooCommerce Photo Reviews
+  * Woocommerce Product Archive Customiser (to set # of columns)
+  * YITH Infinite Scrolling
+  * WooCommerce Remove Product Sorting
+* Code
+  * Customizer
+  * Checkout with images
+  * Order Confirmation Email with images
+  * Fixing quick view
+  * Adjusting the account page
+  * Friendbuy
+  * Adding product images to order history
+  * Delete profile field in BuddyPress profile form
+  * Change color of checkout button
+* Miscallaneous
+  * Correcting product page misalignment
 ## Plugins
 ### [WooCommerce Products Filter (WOOF)](https://www.woocommerce*filter.com)
 #### **Project: Product filter for browse closet, etc.**
