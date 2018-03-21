@@ -176,6 +176,57 @@ CSS code: insert padding to the left
 }
 ```
 ![Image of Account page after](https://github.com/AmyJZhao/BellaNove/blob/master/Accountsummary_after.png)
+### Friendbuy
+#### Code Snippets
+##### SmartPixel:
+```js
+<?php
+$member = MS_Model_Member::get_current_member(); //Current member
+$member->email; //email
+$sub = null;
+foreach ( $member->subscriptions as $subscription ) {
+if ( $subscription ) {
+if ( $subscription->is_system() ) { continue; }
+$membership = $subscription->get_membership();
+if ( $membership->is_valid() ) {
+$sub = $subscription;
+}
+}
+}
+if ( $sub ) {
+$invoice = $sub->get_current_invoice( false );
+}
+?>
+
+<script>
+window['friendbuy'] = window['friendbuy'] || [];
+window['friendbuy'].push(['track', 'order',
+{
+id: '<?php echo $invoice->get_invoice_number(); ?>', //INPUT ORDER ID
+amount: '<?php echo $invoice->total; ?>', //INPUT ORDER AMOUNT
+coupon_code: '', //OPTIONAL, coupon code if used for order
+new_customer: '', //OPTIONAL, true if this is the customer's first purchase
+email: '<?php echo $member->email; ?>' //INPUT EMAIL
+}
+]);
+</script>
+```
+This code should be inserted into the `header.php` file
+```js
+<script>
+window['friendbuy'] = window['friendbuy'] || [];
+window['friendbuy'].push(['track', 'order',
+{
+id: '<?php echo $invoice->get_invoice_number(); ?>', //INPUT ORDER ID
+amount: '<?php echo $invoice->total; ?>', //INPUT ORDER AMOUNT
+// coupon_code: '', //OPTIONAL, coupon code if used for order
+// new_customer: '', //OPTIONAL, true if this is the customer's first purchase
+email: '<?php echo $member->email; ?>' //INPUT EMAIL
+}
+]);
+</script>
+```
+This code should be inserted into the file `m2-registration-complete.php`, which should be made a template file in `themes/thegem/membership/`.
 ### Project: Adding product images to order history
 ### Project: Delete profile field in BuddyPress profile form
 ### Project: Change color of checkout button
