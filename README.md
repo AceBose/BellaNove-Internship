@@ -3,24 +3,24 @@
 [https://docs.google.com/spreadsheets/d/19rKFMVusFRS6pGN9ElMqoJsKHk0ZmgucNvpto3wVvVU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/19rKFMVusFRS6pGN9ElMqoJsKHk0ZmgucNvpto3wVvVU/edit?usp=sharing)
 ## Table Of Contents
 * <a href="#plugins">Plugins</a>
-* <a href="#woocommerce-products-filter-woof">WooCommerce Products Filter</a>
-  * WC Password Strength Settings
-  * WooCommerce Photo Reviews
-  * Woocommerce Product Archive Customiser (to set # of columns)
-  * YITH Infinite Scrolling
-  * WooCommerce Remove Product Sorting
-* Code
-  * Customizer
-  * Checkout with images
-  * Order Confirmation Email with images
-  * Fixing quick view
-  * Adjusting the account page
-  * Friendbuy
-  * Adding product images to order history
-  * Delete profile field in BuddyPress profile form
-  * Change color of checkout button
-* Miscallaneous
-  * Correcting product page misalignment
+  * <a href="#woocommerce-products-filter-woof">WooCommerce Products Filter</a>
+  * <a href="#wc-password-strength-settings">WC Password Strength Settings</a>
+  * <a href="#woocommerce-photo-reviews">WooCommerce Photo Reviews</a>
+  * <a href="#woocommerce-product-archive-customiser">Woocommerce Product Archive Customiser (to set # of columns)</a>
+  * <a href="#yith-infinite-scrolling">YITH Infinite Scrolling</a>
+  * <a href="#woocommerce-remove-product-sorting">WooCommerce Remove Product Sorting</a>
+* <a href="#code">Code</a>
+* <a href="#customizer">Customizer</a>
+* <a href="#project-checkout-with-images">Checkout with images</a>
+  * <a href="#project-order-confirmation-email-with-images">Order Confirmation Email with images</a>
+  * <a href="#project-fixing-quick-view">Fixing quick view</a>
+  * <a href="#project-adjusting-the-account-page">Adjusting the account page</a>
+  * <a href="#friendbuy">Friendbuy</a>
+  * <a href="#project-adding-product-images-to-order-history">Adding product images to order history</a>
+  * <a href="#project-delete-profile-field-in-buddypress-profile-form">Delete profile field in BuddyPress profile form</a>
+  * <a href="#project-change-color-of-checkout-button">Change color of checkout button</a>
+* <a href="#miscellaneous">Miscellaneous</a>
+  * <a href="#project-correcting-product-page-misalignment">Correcting product page misalignment</a>
 ## Plugins
 ### [WooCommerce Products Filter (WOOF)](https://www.woocommerce*filter.com)
 #### **Project: Product filter for browse closet, etc.**
