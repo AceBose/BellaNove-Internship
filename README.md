@@ -102,7 +102,7 @@ CSS in `Appearance > Customize` made plugin redundant
 ```
 div.before-products-list.rounded-corners.clearfix
 {
-display: none;
+    display: none;
 }
 ```
 ## Code
@@ -113,6 +113,22 @@ Code is stored in `customizer.css`
 ##### Solution
 In Customizer, go to `WooCommerce > Product Images` and set the thumbnail width to 358 or whatever the width of the product container is. Then, select `uncropped` under thumbnail cropping.
 ![Image of Customizer settings](https://github.com/AmyJZhao/BellaNove/blob/master/ProductImageWooCommerceSettings.png)
+#### Project: Hide the "this field can be seen by: " text on the Edit Profile page
+![Edit profile before](https://github.com/AmyJZhao/BellaNove/blob/master/EditProfileBefore.png)
+##### Solution
+In Customizer, go to `Additional CSS` and add in the following CSS:
+```CSS
+.field-visibility-settings-notoggle
+{
+    display: none;
+}
+.editfield
+{
+    margin-bottom: 20px;
+}
+```
+The final result:
+![Edit profile after](https://github.com/AmyJZhao/BellaNove/blob/master/EditProfileAfter.png)
 ### Project: Checkout with images
 #### Description: insert product images in product tables during checkout
 #### Solution
@@ -206,49 +222,49 @@ CSS code: insert padding to the left
 ##### SmartPixel:
 ```js
 <?php
-$member = MS_Model_Member::get_current_member(); //Current member
-$member->email; //email
-$sub = null;
-foreach ( $member->subscriptions as $subscription ) {
-if ( $subscription ) {
-if ( $subscription->is_system() ) { continue; }
-$membership = $subscription->get_membership();
-if ( $membership->is_valid() ) {
-$sub = $subscription;
-}
-}
-}
-if ( $sub ) {
-$invoice = $sub->get_current_invoice( false );
-}
+    $member = MS_Model_Member::get_current_member(); //Current member
+    $member->email; //email
+    $sub = null;
+    foreach ( $member->subscriptions as $subscription ) {
+        if ( $subscription ) {
+            if ( $subscription->is_system() ) { continue; }
+            $membership = $subscription->get_membership();
+            if ( $membership->is_valid() ) {
+                $sub = $subscription;
+            }
+        }
+    }
+    if ( $sub ) {
+        $invoice = $sub->get_current_invoice( false );
+    }
 ?>
 
 <script>
-window['friendbuy'] = window['friendbuy'] || [];
-window['friendbuy'].push(['track', 'order',
-{
-id: '<?php echo $invoice->get_invoice_number(); ?>', //INPUT ORDER ID
-amount: '<?php echo $invoice->total; ?>', //INPUT ORDER AMOUNT
-coupon_code: '', //OPTIONAL, coupon code if used for order
-new_customer: '', //OPTIONAL, true if this is the customer's first purchase
-email: '<?php echo $member->email; ?>' //INPUT EMAIL
-}
-]);
+    window['friendbuy'] = window['friendbuy'] || [];
+    window['friendbuy'].push(['track', 'order',
+    {
+        id: '<?php echo $invoice->get_invoice_number(); ?>', //INPUT ORDER ID
+        amount: '<?php echo $invoice->total; ?>', //INPUT ORDER AMOUNT
+        coupon_code: '', //OPTIONAL, coupon code if used for order
+        new_customer: '', //OPTIONAL, true if this is the customer's first purchase
+        email: '<?php echo $member->email; ?>' //INPUT EMAIL
+    }
+    ]);
 </script>
 ```
 This code should be inserted into the `header.php` file
 ```js
 <script>
-window['friendbuy'] = window['friendbuy'] || [];
-window['friendbuy'].push(['track', 'order',
-{
-id: '<?php echo $invoice->get_invoice_number(); ?>', //INPUT ORDER ID
-amount: '<?php echo $invoice->total; ?>', //INPUT ORDER AMOUNT
-// coupon_code: '', //OPTIONAL, coupon code if used for order
-// new_customer: '', //OPTIONAL, true if this is the customer's first purchase
-email: '<?php echo $member->email; ?>' //INPUT EMAIL
-}
-]);
+    window['friendbuy'] = window['friendbuy'] || [];
+    window['friendbuy'].push(['track', 'order',
+    {
+        id: '<?php echo $invoice->get_invoice_number(); ?>', //INPUT ORDER ID
+        amount: '<?php echo $invoice->total; ?>', //INPUT ORDER AMOUNT
+        // coupon_code: '', //OPTIONAL, coupon code if used for order
+        // new_customer: '', //OPTIONAL, true if this is the customer's first purchase
+        email: '<?php echo $member->email; ?>' //INPUT EMAIL
+    }
+    ]);
 </script>
 ```
 This code should be inserted into the file `m2-registration-complete.php`, which should be made a template file in `themes/thegem/membership/`.
