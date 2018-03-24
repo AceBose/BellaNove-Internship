@@ -25,7 +25,7 @@
 * <a href="#miscellaneous">Miscellaneous</a>
   * <a href="#project-correcting-product-page-misalignment">Correcting product page misalignment</a>
 ## Plugins
-### [WooCommerce Products Filter (WOOF)](https://www.woocommerce*filter.com)
+### [WooCommerce Products Filter (WOOF)](https://www.woocommerce-filter.com)
 #### **Project: Product filter for browse closet, etc.**
 #### Description: filter by size, placed at the top of the product category pages
 Settings (which can be found by going to Woocommerce -> Settings -> Products Filter:
@@ -68,13 +68,13 @@ Dresses page
 [woof_products per_page=200 columns=3 is_ajax=0 taxonomies=product_cat:17]
 ```
 Shortcode settings found [here](https://www.woocommerce-filter.com/codex/)
-### [WC Password Strength Settings](https://wordpress.org/plugins/wc*password*strength*settings/#reviews)
+### [WC Password Strength Settings](https://wordpress.org/plugins/wc-password-strength-settings/)
 #### **Project: Password strength**
 #### Description: Weaken the password strength requirement
 This plugin allows you to choose between four password levels, as well as remove the password hint.
 Settings
 Go to `Woocommerce > Accounts`, and at the bottom of the page will be "User Password Strength Settings". The strength requirement is currently set at `Level 2 - Weak`, while the messages and the other settings have been left the same. 
-### [WooCommerce Photo Reviews](https://wordpress.org/plugins/woo*photo*reviews/)
+### [WooCommerce Photo Reviews](https://wordpress.org/plugins/woo-photo-reviews/)
 #### Project: Adding pictures to user reviews
 Description: Allow users to upload images and add them to their reviews
 This plugin allows customers to post reviews that include photos. The settings to this plugins include: reviews must include photos, photo review style, photo options (max photo size), filter reviews, etc.
