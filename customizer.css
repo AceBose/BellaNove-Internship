@@ -35,3 +35,11 @@ form.cart .quantity
 {
 	padding-left: 20px;
 }
+.field-visibility-settings-notoggle
+{
+	display: none;
+}
+.editfield
+{
+	margin-bottom: 20px;
+}
