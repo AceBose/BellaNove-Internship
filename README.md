@@ -146,7 +146,7 @@ before the following line of code in `review-order.php`
 ### Project: Order confirmation email with images
 #### Description: insert product images in email order confirmation
 #### Solution
-Modify the `email*order*details.php` located in `plugins/woocommerce/templates/emails` (but don't change the original file in the woocommerce plugin) and insert the new version into `theme/woocommerce/emails` <br />
+Modify the `email-order-details.php` located in `plugins/woocommerce/templates/emails` (but don't change the original file in the woocommerce plugin) and insert the new version into `theme/woocommerce/emails` <br />
 Change this code:
 ```php
 'show_image' => false
